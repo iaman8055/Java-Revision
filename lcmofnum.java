@@ -3,15 +3,27 @@ import java.util.Scanner;
 
 public class lcmofnum {
     public static int lcm(int first,int second){
-        int i=1;
+        // int i=1;
+        // while(i<=second){
+        //     int factor=first*i;
+        //     if(factor%second==0){
+        //         return factor;
+        //     }
+        //     i++;
+        // }
+        // return 0;
+
+        int i=0;
         while(i<=second){
-            int factor=first*i;
-            if(factor%second==0){
-                return factor;
+            if(first%i==0&&second%i==0){
+                i*=i;
             }
-            i++;
+            else{
+                
+            }
         }
-        return 0;
+
+        
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

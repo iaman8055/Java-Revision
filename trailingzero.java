@@ -2,18 +2,15 @@
 import java.util.Scanner;
 
 public class trailingzero {
-    public static int factorial(int n){
-        
-        return fact;
-    }
+   
     public static int trailing(int num){
-        int fact=1;
+        long fact=1;
                int i=1;
         while(i<=num){
             fact*=i;
             i++;
         }
-        int count=0;
+         int count=0;
         while(fact%10==0){
             count++;
             fact=fact/10;

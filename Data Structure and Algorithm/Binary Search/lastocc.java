@@ -11,7 +11,7 @@ public class lastocc {
 
             if(arr[mid]<x){
                 high=mid-1;
-            }else if(arr[mid>x]){
+            }else if(arr[mid]>x){
                 low=mid+1;
             }else{
                 if(mid!=arr.length-1||arr[mid]!=arr[mid+1]){
@@ -22,6 +22,7 @@ public class lastocc {
                 }
             }
         }
+        System.out.println(-1);
     }
     public static void main(String[] args) {
         int arr[]=Arrayutility.inputArray();

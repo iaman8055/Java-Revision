@@ -1,2 +1,5 @@
-package Oops.src.Aman.in.abstraction;public interface Transport {
+package Oops.src.Aman.in.abstraction;
+
+public interface Transport {
+    void noOfCars();
 }

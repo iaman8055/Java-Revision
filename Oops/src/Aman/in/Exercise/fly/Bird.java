@@ -1,2 +1,5 @@
-package Oops.src.Aman.in.Exercise.fly;public class Bird {
+package Oops.src.Aman.in.Exercise.fly;
+
+public abstract class Bird implements Flyable{
+
 }

@@ -5,7 +5,9 @@ class primeno2{
         int i=2;
         int j=2;
         while(i<=n){
-            if(i%j==0)
+            if(i%j==0){
+
+            }
         }
         return 0;
     }

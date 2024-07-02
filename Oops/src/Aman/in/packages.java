@@ -1,4 +1,4 @@
-package in.Aman.in;
+package Oops.src.Aman.in;
 
 import java.util.Scanner;
 

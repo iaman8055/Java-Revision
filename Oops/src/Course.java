@@ -27,7 +27,6 @@ public class Course {
     }
     void unenrollStudent(String studentName){
         System.out.println("student removed");
-        String 
         enrollments--;
         if(isEnrolled){
             this.isEnrolled=false;
